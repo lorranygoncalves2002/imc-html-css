@@ -1,0 +1,41 @@
+body{
+    background-size: cover;
+    text-align: center;
+}
+
+LABEL{
+    COLOR: rgb(2,64,3);
+    text-align: center;
+    font-family: serif, Bodoni MT , text;
+}
+form{
+    margin:auto;
+    background-color: rgba(200,217,195,1);
+    max-width: 500px;
+    padding: 0px 5px 0px 0px;  
+}
+h1{
+   color: darkgreen;
+    text-align: center;
+    background-color:  rgba(200,217,195,1);
+    width: 1500px;
+   margin-left: -50px;
+}
+input[type=button]{
+    background-color: #93C993;
+    padding:10px;
+    border-bottom-style: double;
+}
+hr{
+    color: #043920;
+    background-color: #043920;
+    height: 50px;
+    border: none;
+}
+hr[id=linha3]{
+    color: #043920;
+    background-color: #043920;
+    height: 50px;
+    width: 505px;
+    border: none;
+}

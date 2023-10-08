@@ -1,0 +1,39 @@
+<DOCTYPE! html>
+ <HTML>
+  <meta charset="utf-8">
+  <Head>
+      <Title>IMC </Title>
+      <link rel="stylesheet" type="text/css"  href="css/style.css">
+      <script src="JS/script.js"></script>
+  </Head>
+  <Body background="nutricao3.jpg">
+    <h1>
+       <hr>
+       Calculador de IMC (Indice de massa corporal)
+       <hr id="linha1">
+    </h1>
+    <br>
+    <div ID="formulario">
+      <form name="form">
+        <hr id="linha3">
+        <h3>
+           <label>Peso atual (em kg): </label>
+            <br><br>
+           <input type="number" id="P" placeholder="Informe seu peso" size="50" maxlength="80" min="0" required />
+            <br><br>
+           <label>Altura atual (em m): </label>
+            <br><br>
+           <input type="number" id="a" placeholder="Informe sua altura" size="50" maxlength="80" min="0" required />
+            <br><br>
+           <label> Seu IMC: </label>
+            <br><br>
+           <input type="Number" id="imc" placeholder="Informaremos seu IMC" size="50" disabled >
+            <br><br>
+           <input type="button" value="Calcular" name="Cacular" onclick="calcular()">
+           <hr id="linha3">
+        </h3> 
+      </form>
+    </div>   
+  </Body>
+ </HTML>
+</DOCTYPE!>
